@@ -19,9 +19,7 @@ class _MessageTileState extends State<MessageTile> {
           onTap: () =>
               Navigator.of(context).push(MaterialPageRoute(builder: (context) {
             if (chats[index].unread == true) {
-              // setState(() {
               chats[index].unread != !chats[index].unread!;
-              // });
             }
             return ChatScreen(name: chats[index].sender!.name!);
           })),
