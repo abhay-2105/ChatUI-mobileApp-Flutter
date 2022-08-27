@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:message/models/message_model.dart';
 import 'package:message/screens/chat_screen.dart';
