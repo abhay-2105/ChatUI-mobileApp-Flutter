@@ -1,1 +1,1 @@
-A simple message chat Box user interface created using flutter
+A simple message chat App user interface created using flutter
